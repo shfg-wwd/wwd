@@ -1,2 +1,4 @@
-#!/bin/bash
-shuf -n 1 waifus.csv
+#!/bin/sh
+head -n1 waifus.csv
+sed 1d waifus.csv | sort -R | head -n1
+

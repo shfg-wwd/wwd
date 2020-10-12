@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#result {
+    font-size: large;
+    white-space: pre-line;
+    margin-bottom: 1rem;
+}
+#result::first-line {
+    font-weight: bold;
+}

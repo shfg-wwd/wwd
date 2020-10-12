@@ -1,7 +1,7 @@
 function roll() {
     let picked = WAIFULIST[(Math.floor(Math.random() * WAIFULIST.length))];
-    let [name, series, bday] = picked.match(/([^, ][^,]+)/g);
-    display.textContent = `${name}${series ? `\n${series}` : ""}${bday ? `\n${bday}` : ""}`;
+    let fields = picked.match(/([^, ][^,]+)/g);
+    display.textContent = `${fields.join("\n")}`;
 }
 
 const display = document.getElementById("result");

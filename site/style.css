@@ -4,10 +4,12 @@ body {
     text-align: center;
     align-items: center;
 }
+body > * {
+    margin-bottom: 1rem;
+}
 #result {
     font-size: large;
     white-space: pre-line;
-    margin-bottom: 1rem;
 }
 #result::first-line {
     font-weight: bold;

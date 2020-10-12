@@ -2,8 +2,10 @@
 This repo holds a list of waifus and scripts related to the WWD for whatever
 use you might want. Feel free to request corrections and additions. 
 
-If you dont know Git you can [Download everything Here][download] 
-or [Get the raw list Here][waifu_raw].
+[Check the website][github-page] with web-apps related to WWD, currently It holds a [random waifu picker][random-picker]
+
+If you dont know Git you can Download everything [Here][download], Check the list [Here][waifu_list],
+or Get the raw **csv** [Here][waifu_raw].
 
 ## The Files
 - *waifus.csv* contains the current list of waifus and probably what you want.
@@ -45,4 +47,6 @@ or more relevant fields.
 [waifu_raw]: <https://raw.githubusercontent.com/shfg-wwd/wwd/main/waifus.csv>
 [waifu_edit]: <https://github.com/shfg-wwd/wwd/edit/main/waifus.csv>
 [issues]: <https://github.com/shfg-wwd/wwd/issues>
+[github-page]:<https://shfg-wwd.github.io/wwd/>
+[random-picker]:<https://shfg-wwd.github.io/wwd/site/index.html>
 

@@ -9,7 +9,6 @@ body > * {
 }
 #result {
     font-size: large;
-    white-space: pre-line;
 }
 #result::first-line {
     font-size: larger;

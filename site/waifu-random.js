@@ -2,7 +2,7 @@ function roll() {
     let n = Math.floor(Math.random() * WAIFULIST.length);
     let picked = WAIFULIST[n];
     if (picked) {
-        display.textContent = picked.join("\n");
+        display.innerHTML = picked.join("<br>");
         WAIFULIST.splice(n, 1);
     }
     else display.textContent = "You're out of waifus and husbandos!";

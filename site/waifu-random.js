@@ -31,7 +31,7 @@ function getWaifus() {
         .then(t => {
             t.split(/\r?\n+/).forEach((e, i) => {
                 if (i != 0 && e != "") {
-                    WAIFULIST_FULL.push(e.match(/(?! )[^,"]+(?<! )/g));
+                    WAIFULIST_FULL.push(e.match(/\b[^,"]+\b/g));
                     WAIFULIST = Array.from(WAIFULIST_FULL);
                 }
             });

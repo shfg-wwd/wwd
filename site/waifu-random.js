@@ -26,7 +26,7 @@ function load() {
 }
 
 function getWaifus() {
-    return fetch("/_data/waifus.csv")
+    return fetch("../waifus.csv")
         .then(r => r.text())
         .then(t => {
             t.split(/\r?\n+/).forEach((e, i) => {

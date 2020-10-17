@@ -1,37 +1,24 @@
----
-title: WWD Repo
-layout: default
----
-<h1>Welcome to the WWD Repository</h1>
-where web-apps related to WWD will be hosted.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWD Repo</title>
+    <link rel="stylesheet" type="text/css" href="site/style.css">
+</head>
+<body>
+    <h1>Welcome to the WWD Repository</h1>
+    where web-apps related to WWD will be hosted.
 
-<h2>Apps</h2>
-<ul>
-    <li>
-        <a href="/webapps/random_waifu.html">A small app that picks a random waifu</a>
-    </li>
-</ul>
+    <h2>Apps</h2>
+    <ul>
+        <li>
+            <a href="site/index.html">A small app that picks a random waifu</a>
+        </li>
+    </ul>
 
-<h2>The Waifu List</h2>
-<p>feat: <b>{{site.data.waifus.size}}</b> waifus!  </p>
-
-<table>
-    <tr>
-        <th>Waifu</th>
-        <th>Source</th>
-    </tr>
-    {% for waifu in site.data.waifus %}
-    <tr>
-        <td>{{ waifu.NAME }}</td>
-        <td>{{ waifu.SERIES }}</td>
-    </tr>
-    {% endfor %}
-    <tr>
-        <td>Waifu Total:</td>
-        <td>{{ site.data.waifus.size }}</td>
-    </tr>
-</table>
-
-<br />
-Your waifu isn't here? edit the list
-<a href="https://github.com/shfg-wwd/wwd/edit/main/_data/waifus.csv">on the github repo</a>
+    <h2>The Waifu List</h2>
+    <!-- TODO: Add the table here -->
+    Check out the complete list <a href="https://github.com/shfg-wwd/wwd/blob/main/waifus.csv">on the github repo</a>
+</body>
+</html>

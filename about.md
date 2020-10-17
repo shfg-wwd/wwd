@@ -43,11 +43,11 @@ or more relevant fields.
 
 - *Name* Has to be in japanese order unless the name is western
 
-[download]: </_data/waifus.csv>
+[download]: <{{"_data/waifus.csv" | relative_url }}>
 [waifu_list]: <https://github.com/shfg-wwd/wwd/blob/main/_data/waifus.csv>
 [waifu_raw]: <https://raw.githubusercontent.com/shfg-wwd/wwd/main/_data/waifus.csv>
 [waifu_edit]: <https://github.com/shfg-wwd/wwd/edit/main/_data/waifus.csv>
 [issues]: <https://github.com/shfg-wwd/wwd/issues>
-[github-page]:</>
-[random-picker]:</webapps/random_waifu.html>
+[github-page]:<{{"/" | relative_url}}>
+[random-picker]:<{{"webapps/random_waifu.html | relative_url"}}>
 

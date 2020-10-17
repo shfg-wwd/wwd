@@ -1,3 +1,6 @@
+var waifu_csv = "../_data/waifus.csv"
+
+
 function roll() {
     let n = Math.floor(Math.random() * WAIFULIST.length);
     let picked = WAIFULIST[n];
@@ -26,7 +29,7 @@ function load() {
 }
 
 function getWaifus() {
-    return fetch("/_data/waifus.csv")
+    return fetch(waifu_csv)
         .then(r => r.text())
         .then(t => {
             t.split(/\r?\n+/).forEach((e, i) => {

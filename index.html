@@ -13,6 +13,7 @@ where web-apps related to WWD will be hosted.
 </ul>
 
 <h2>The Waifu List</h2>
+<p>feat: <b>{{site.data.waifus.size}}</b> waifus!  </p>
 
 <table>
     <tr>
@@ -25,7 +26,12 @@ where web-apps related to WWD will be hosted.
         <td>{{ waifu.SERIES }}</td>
     </tr>
     {% endfor %}
+    <tr>
+        <td>Waifu Total:</td>
+        <td>{{ site.data.waifus.size }}</td>
+    </tr>
 </table>
 
-Edit the list
-<a href="https://github.com/shfg-wwd/wwd/blob/main/waifus.csv">on the github repo</a>
+<br />
+Your waifu isn't here? edit the list
+<a href="https://github.com/shfg-wwd/wwd/blob/main/_data/waifus.csv">on the github repo</a>

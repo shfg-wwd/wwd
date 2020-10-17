@@ -3,25 +3,23 @@
   title: About
 ---
 # The WWD Database
-This repo holds a list of waifus and scripts related to the WWD for whatever
-use you might want. Feel free to request corrections and additions. 
+This repo holds a list of waifus and hosts a site related to the WWD for whatever
+use waifufriends might want. Feel free to request corrections and additions. 
 
 [Check the website][github-page] with web-apps related to WWD, currently It holds a [random waifu picker][random-picker]
 
-If you dont know Git you can Download everything [Here][download], Check the list [Here][waifu_list],
 or Get the raw **csv** [Here][waifu_raw].
 
 ## The Files
-- *waifus.csv* contains the current list of waifus and probably what you want.
+- *_data/waifus.csv* contains the current list of waifus and probably what you want.
   [click here to look at it][waifu_list], [click here to edit it][waifu_edit]
   note that the change won't be immediate but I'll try to approve changes
   regularly.
-- *random_waifu_(SYSTEM).XXX* is a script that picks a random waifu. If you dont
-  know what is this, on windows just click *random_waifu_(windows).bat*.
 
-## To do / Ideas
-- A script to get upcoming birthdays.
-- A drawfag database.
+## The site
+The site is hosted with Github Pages and works wit *Jakyll* read the documentation if you want to edit it. or don't you'll figure it out.
+
+The *webapps* directory is made for javascript contributions and holds the waifu randomizer.
 
 ## Why Git?
 *Git* is made for distributed colaboration. I am aware that most people don't
@@ -40,17 +38,16 @@ If you know how to use *git* or want to learn I'll be happy if you can colaborat
 *CSV* is an eazy to read and edit interchangeable format. You can even open it in Excel if you want.
 The rows are separated by new lines and the columns are sepparated with commas. 
 
-I started with the fields: *Name*, *Series* and *Birthday* but feel free to suggest better
+I started with the fields: *Name* and *Series* but feel free to suggest better
 or more relevant fields.
 
-- *Name* order hasn't been decided yet.
-- *Dates* should be in ISO format YYYY-MM-DD.
+- *Name* Has to be in japanese order unless the name is western
 
-[download]: <https://github.com/shfg-wwd/wwd/archive/main.zip>
-[waifu_list]: <https://github.com/shfg-wwd/wwd/blob/main/waifus.csv>
-[waifu_raw]: <https://raw.githubusercontent.com/shfg-wwd/wwd/main/waifus.csv>
-[waifu_edit]: <https://github.com/shfg-wwd/wwd/edit/main/waifus.csv>
+[download]: </_data/waifus.csv>
+[waifu_list]: <https://github.com/shfg-wwd/wwd/blob/main/_data/waifus.csv>
+[waifu_raw]: <https://raw.githubusercontent.com/shfg-wwd/wwd/main/_data/waifus.csv>
+[waifu_edit]: <https://github.com/shfg-wwd/wwd/edit/main/_data/waifus.csv>
 [issues]: <https://github.com/shfg-wwd/wwd/issues>
-[github-page]:<https://shfg-wwd.github.io/wwd/>
-[random-picker]:<https://shfg-wwd.github.io/wwd/site/index.html>
+[github-page]:</>
+[random-picker]:</webapps/random_waifu.html>
 

@@ -1,4 +1,5 @@
-var waifu_csv = "../_data/waifus.csv"
+// cant properly configure jekyll include yet so Ill get the raw from the repo
+var waifu_csv = "https://raw.githubusercontent.com/shfg-wwd/wwd/main/_data/waifus.csv"
 
 
 function roll() {

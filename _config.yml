@@ -1,2 +1,2 @@
 theme: jekyll-theme-minimal
-include: ["_data/waifus.csv"]
+include: ["/_data/waifus.csv"]

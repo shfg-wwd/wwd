@@ -36,14 +36,14 @@ function getWaifus() {
             t.split(/\r?\n+/).forEach((e, i) => {
                 if (i != 0 && e != "") {
                     WAIFULIST_FULL.push(e.match(/\b[^,"]+\b/g));
-                    WAIFULIST = Array.from(WAIFULIST_FULL);
                 }
             });
+            WAIFULIST = Array.from(WAIFULIST_FULL);
         });
 }
 
 function reset() {
     localStorage.removeItem("rng-waifu-picker");
-    WAIFULIST_FULL.length ? WAIFULIST = WAIFULIST_FULL : getWaifus();
+    WAIFULIST_FULL.length ? WAIFULIST = Array.from(WAIFULIST_FULL) : getWaifus();
     display.textContent = "Rolls reset!";
 }
